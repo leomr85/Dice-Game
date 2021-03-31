@@ -1,0 +1,118 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Tags  * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+html{
+  width: 100%;
+  min-width: 375px;
+}
+
+body{
+  text-align: center;
+  background-color: #d5e2cf;
+  position: relative;
+  overflow: hidden;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Classes * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.custom-font{
+  font-family: 'Lobster', cursive;
+  color: #383e56;
+}
+
+.custom-font-text{
+  font-family: 'Abel', sans-serif;
+  color: #fb743e;
+}
+
+.custom-font-text-score{
+  color: #8aa89b;
+}
+
+.player{
+  display: flex;
+  justify-content: center;
+}
+
+.player-title{
+  padding: 0 36px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.score{
+  padding: 0 40px;
+}
+
+.score-align{
+  margin: 0;
+  width: 70px;
+  margin-bottom: 50px;
+  font-family: 'Abel', sans-serif;
+}
+
+.score-number-left{
+  margin-left: 0;
+}
+
+.score-title{
+  margin-left: 5px;
+}
+
+.score-number-right{
+  margin-left: 5px;
+}
+
+.custom-button {
+	background-color:#9fb8ad;
+  border-width: 0;
+	border-radius: 14px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Abel', sans-serif;
+	font-size: 24px;
+	padding: 4px 0;
+	text-decoration: none;
+  width: 195px;
+  margin: 0 10px;
+}
+
+.custom-button:hover {
+	background-color: #8aa89b;
+}
+
+.bg-img{
+  width: 750px;
+  position: absolute;
+  top: 42%;
+  left: 62%;
+  z-index: -1;
+}
+
+.bg-img img{
+  height: 100%;
+  width: 100%;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Font Size * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.big-font {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.medium-font{
+  font-size: 2rem;
+}
+
+.small-font{
+  font-size: 0.75rem;
+  color: #8aa89b;
+  margin-top: 40px;
+}
